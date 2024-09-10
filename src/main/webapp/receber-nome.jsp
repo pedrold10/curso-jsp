@@ -10,10 +10,10 @@
 	<h1>
 		<%="Seja bem vindo, "+ request.getParameter("nome") %>
 	</h1>
-	<%! String link = "https://ssl.gstatic.com/ui/v1/icons/mail/rfr/logo_gmail_lockup_dark_1x_r5.png"; %>
+	<%! String link = "https://media.licdn.com/dms/image/v2/D4D03AQFUdsdZ1x8m7w/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1725973610882?e=1731542400&v=beta&t=DB3YYRLxNffHWZUjqE27gThXWxOcgwx-poNDI1GqFik"; %>
 	
 	<img src=<%= link %>>
-	
+	<!-- Implementação de método -->
 	<%!
 		int cont = 2; 
 		public int retorna(int numero){
@@ -23,5 +23,9 @@
 	%>
 	
 	<p><%=retorna(cont) %></p>
+	
+	<!-- Response redirect -->
+	
+	<% response.sendRedirect("http://www.google.com"); %>
 </body>
 </html>
