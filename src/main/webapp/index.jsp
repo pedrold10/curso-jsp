@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <%@ taglib prefix="myprefix" uri="WEB-INF/testetag.tld"%>
+<jsp:useBean id ="calcula" class="beans.BeanCursoJSP" type="beans.BeanCursoJSP" scope="page"/>
 
 <!DOCTYPE html>
 <html>
@@ -32,8 +33,12 @@
 		
 		<!-- Taglib -->
 		<myprefix:minhatag/>
+		<br>
+		<!-- Bean -->
+		<%="Resultado do cálculo pelo Bean: "+ calcula.calcula(50) %>
 		
 		<jsp:include page="rodape.jsp"/>
+		
 		
 	</body>
 </html>

@@ -3,6 +3,6 @@
 <!DOCTYPE html>
 <html>
 	<body>
-		<h1 style="text-align: center; background-color: 	#D3D3D3">Cabecalho da pagina</h1>
+		<h1 style="text-align: center; background-color: 	#D3D3D3">Cabeçalho da página</h1>
 	</body>
 </html>
