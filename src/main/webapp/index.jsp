@@ -30,5 +30,11 @@
 		
 		<!-- Taglib -->
 		<myprefix:minhatag/>
+		
+		<!-- Forwards -->
+		<h1>Index</h1>
+		<jsp:forward page="receber-nome.jsp">
+			<jsp:param value="site java" name="paramforward"/>
+		</jsp:forward>
 	</body>
 </html>

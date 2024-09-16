@@ -11,7 +11,7 @@ public class TagCursoJSP extends SimpleTagSupport{
 	@Override
 	public void doTag() throws JspException, IOException{
 		JspWriter out = getJspContext().getOut();
-		out.println("This is my own custom tag");
+		out.println("This is my own custom tag<br>Testando");
 		
 	}
 }
