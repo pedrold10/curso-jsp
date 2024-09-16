@@ -8,8 +8,7 @@
 		<title>Enviar nome</title>
 	</head>
 	<body>
-		<h1>Olá<br>
-		
+		<h1>Olá</h1>
 		<!-- Import -->
 		<%@ page import="java.util.Date" %>
 		
@@ -21,7 +20,6 @@
 		
 		<!-- Date -->
 		<%= "Data de hoje: "+ new Date() %>
-		</h1>
 		<form action="receber-nome.jsp">
 			<input type="text" id="nome" name="nome">
 			<input type="submit"></input>		
@@ -29,7 +27,6 @@
 		
 		<!-- Include page -->
 		<%@ include file="pagina-include.html" %>
-		
 		
 		<!-- Taglib -->
 		<myprefix:minhatag/>
