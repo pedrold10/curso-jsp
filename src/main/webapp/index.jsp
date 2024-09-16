@@ -24,7 +24,7 @@
 		<%= "Data de hoje: "+ new Date() %>
 		<form action="receber-nome.jsp">
 			<input type="text" id="nome" name="nome">
-			<input type="submit"></input>		
+			<input class="button" type="submit"></input>		
 		</form>
 		
 		<!-- Include page -->

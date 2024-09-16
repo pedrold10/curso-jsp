@@ -1,5 +1,16 @@
-
-			@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-			body{
-				  font-family: "Montserrat", system-ui;
-			}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+	  font-family: "Montserrat", system-ui;
+}
+.button{
+	background-color: #00BFFF;
+	padding: 10px;
+	color: white;
+	border-radius: 5px;
+	border: none;
+	transition: background 1s;
+}
+.button:hover{
+	background: #1E90FF;
+	border-radius: none;
+}
