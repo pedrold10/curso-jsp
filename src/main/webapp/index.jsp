@@ -15,7 +15,6 @@
 	<!-- Erro -->
 	<%@ page errorPage="receber-nome.jsp" %>
 	<!-- Date -->
-	
 	<%= "Data de hoje: "+ new Date() %>
 	</h1>
 	<form action="receber-nome.jsp">
@@ -23,5 +22,6 @@
 		<input type="submit"></input>		
 	</form>
 	
+	<%@ include file="pagina-include.html" %>
 </body>
 </html>
