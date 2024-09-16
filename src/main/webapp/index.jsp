@@ -8,12 +8,16 @@
 </head>
 <body>
 	<h1>Olá<br>
+	<%@ page import="java.util.Date" %>
+	<%@ page info="Curso de jsp" %>
+	<%= "Data de hoje: "+ new Date() %>
 	</h1>
 	<form action="receber-nome.jsp">
 		<input type="text" id="nome" name="nome">
 		<input type="submit"></input>	
 		
 	</form>
+	
 	
 	
 </body>

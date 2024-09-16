@@ -26,6 +26,6 @@
 	
 	<!-- Response redirect -->
 	
-	<% response.sendRedirect("http://www.google.com"); %>
+	<!--  % response.sendRedirect("http://www.google.com"); %-->
 </body>
 </html>
