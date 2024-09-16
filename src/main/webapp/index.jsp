@@ -6,8 +6,10 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>Enviar nome</title>
+		<link rel="stylesheet" href="./styles/main.css">
 	</head>
 	<body>
+		<jsp:include page="cabecalho.jsp"/>
 		<h1>Olá</h1>
 		<!-- Import -->
 		<%@ page import="java.util.Date" %>
@@ -31,10 +33,7 @@
 		<!-- Taglib -->
 		<myprefix:minhatag/>
 		
-		<!-- Forwards -->
-		<h1>Index</h1>
-		<jsp:forward page="receber-nome.jsp">
-			<jsp:param value="site java" name="paramforward"/>
-		</jsp:forward>
+		<jsp:include page="rodape.jsp"/>
+		
 	</body>
 </html>

@@ -2,12 +2,14 @@
     pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
-<head>
-<meta charset="UTF-8">
-<title>Receber nome</title>
-</head>
+	<head>
+		<meta charset="UTF-8">
+		<title>Receber nome</title>
+		<link rel="stylesheet" href="./styles/main.css">
+	</head>
 <body>
-	<h1>Receber nome</h1>
+
+		<jsp:include page="cabecalho.jsp"/>
 	<h1>
 		<%="Seja bem vindo, "+ request.getParameter("nome") %>
 		
@@ -34,5 +36,8 @@
 	<!--  % response.sendRedirect("http://www.google.com"); %-->
 	
 	<!--  % request.getParameter("paramforward"); % -->
+	
+	
+		<jsp:include page="rodape.jsp"/>
 </body>
 </html>
